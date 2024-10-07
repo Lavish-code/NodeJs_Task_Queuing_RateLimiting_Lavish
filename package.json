@@ -1,0 +1,16 @@
+{
+    "name": "nodejs-task",
+    "version": "1.0.0",
+    "description": "Node.js API with rate limiting and queuing system",
+    "main": "app.js",
+    "scripts": {
+      "start": "pm2 start ecosystem.config.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "rate-limiter-flexible": "^2.3.0",
+      "redis": "^3.1.2",
+      "pm2": "^5.1.0"
+    }
+  }
+  
