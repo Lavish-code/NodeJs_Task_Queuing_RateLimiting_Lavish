@@ -7,7 +7,7 @@
       "start": "pm2 start ecosystem.config.js"
     },
     "dependencies": {
-      "express": "^4.17.1",
+      "express": "^4.21.2",
       "rate-limiter-flexible": "^2.3.0",
       "redis": "^3.1.2",
       "pm2": "^5.1.0"
